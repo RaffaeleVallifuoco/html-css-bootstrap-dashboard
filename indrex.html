@@ -12,13 +12,14 @@
 <body>
     <header class="page_header">
         <nav class="navbar navbar-expand-lg bg-primary text-white ">
-            <div class="container.fluid">
+            <div class="container-fluid">
                 <a class="navbar-brand text-white" href="#">
                     <img src="./img/duck.png" alt="duck_logo" width="30" height="24" class="d-flex align-text-top">
-                    Catalogo libri
+                    
                 </a>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav px-2">
+                        <li class="nav-item px-2 active"> Catalogo Libri</li>
                         <li class="nav-item px-2">
                             Anagrafica Utenti
                         </li>
@@ -34,6 +35,44 @@
             </div>
         </nav>
     </header>
+
+    <main class="main_content">
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col-9">
+                    main
+                </div>
+                <div class="col-3">
+                    <div class="todo py-5 h.100 bg-grey">
+                        <div class="col col-lg-8 col-xl-6">
+                            <div class="card rounded-3">
+                                <div class="card-body p-4">
+                                    <p class="mb-2"><h2 class="me-2">
+                                        TOdo
+                                    </h2>
+                                    </p>
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex align-items-center ps-0">
+                                            <input class="form-check-input me-3" type="checkbox" aria-label="" checked> Chiamare segreteria
+                                        </li>
+                                        <li class="list-group-item d-flex align-items-center ps-0">
+                                            <input class="form-check-input me-3" type="checkbox" aria-label="" > Mandare avvisi prestiti scaduti
+                                        </li>
+                                        <li class="list-group-item d-flex align-items-center ps-0">
+                                            <input class="form-check-input me-3" type="checkbox" aria-label="" checked> Ordinare nuovi libri
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </main>
 
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
