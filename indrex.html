@@ -14,8 +14,8 @@
         <nav class="navbar navbar-expand-lg bg-primary text-white ">
             <div class="container-fluid">
                 <a class="navbar-brand text-white" href="#">
-                    <img src="./img/duck.png" alt="duck_logo" width="30" height="24" class="d-flex align-text-top">
-                    
+                    <img src="./img/duck.png" alt="duck_logo" width="40" height="32" class="d-flex align-text-top">
+
                 </a>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav px-2">
@@ -27,7 +27,7 @@
                         </li>
                         <li class="nav-item px-2">Help</li>
                     </ul>
-                    <form action="search" class="d-flex justify-content-end " >
+                    <form action="search" class="d-flex justify-content-end ">
                         <input class="form-control" type="search" placeholder="Cerca" aria-label="search">
                         <button class="btn text-white" type="submit">vai</button>
                     </form>
@@ -35,21 +35,40 @@
             </div>
         </nav>
     </header>
-
+    <!-- MAIN -->
     <main class="main_content">
         <div class="container container-fluid">
             <div class="row">
                 <!-- booklist -->
                 <div class="col-9 ">
+                    <!-- list header -->
                     <div class="row py-5">
-                        <div class="col-10">
-                            <h2 class="page_title ">Catalogo libri</h2>
+                        <div class="col-10 ">
+                            <h2 class="page_title ">Catalogo libri</h2>    
                         </div>
-                        <div class="col-2"> 
+                        <div class="col-2">
                             <button type="button" class="btn btn-primary">Aggiungi libro</button>
-
                         </div>
                     </div>
+                        <!-- list body -->
+                    <div class="row">
+                        <div class="col-6">
+                            Titolo libro
+                        </div>
+                        <div class="col-2">
+                            Data prestito
+                        </div>
+                        <div class="col-2">stato
+
+                        </div>
+                        <div class="col-1">
+                            azioni
+                        </div>                    
+                    
+                    </div>
+
+
+
 
                 </div>
                 <!-- scrollable -->
@@ -59,38 +78,49 @@
                             <div class="card rounded-3">
                                 <div class="card-body p-4">
                                     <!-- list sub title -->
-                                    <p class="mb-2"><h2 class="me-2">
+                                    <p class="mb-2">
+                                    <h2 class="me-2">
                                         TOdo
                                     </h2>
                                     </p>
                                     <!-- list sub -->
                                     <ul class="list-group">
                                         <li class="list-group-item d-flex align-items-center ps-0">
-                                            <input class="form-check-input me-3" type="checkbox" aria-label="" checked> Chiamare segreteria
+                                            <input class="form-check-input me-3" type="checkbox" aria-label="" checked>
+                                            Chiamare segreteria
                                         </li>
                                         <li class="list-group-item d-flex align-items-center ps-0">
-                                            <input class="form-check-input me-3" type="checkbox" aria-label="" > Mandare avvisi prestiti scaduti
+                                            <input class="form-check-input me-3" type="checkbox" aria-label=""> Mandare
+                                            avvisi prestiti scaduti
                                         </li>
                                         <li class="list-group-item d-flex align-items-center ps-0">
-                                            <input class="form-check-input me-3" type="checkbox" aria-label="" checked> Ordinare nuovi libri
+                                            <input class="form-check-input me-3" type="checkbox" aria-label="" checked>
+                                            Ordinare nuovi libri
                                         </li>
                                     </ul>
                                     <p class="mb-2">
-                                        <h2 class="me-2">F.A.Q.</h2>
+                                    <h2 class="me-2">F.A.Q.</h2>
                                     </p>
                                     <ul class="list-group">
                                         <li class="list-group-item">
                                             <div class="accordion">
                                                 <div class="accordion-item">
-                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="collapse" aria-expanded="true" aria-controls="collase0ne">Come aggiungere un nuovo libro</button>
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="collapse"
+                                                        aria-expanded="true" aria-controls="collase0ne">Come aggiungere
+                                                        un nuovo libro</button>
                                                 </div>
                                                 <div class="accordion-item">
-                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="collapse"
-                                                        aria-expanded="true" aria-controls="collase0ne">Come accedere all'anagrafica utennti</button>
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="collapse"
+                                                        aria-expanded="true" aria-controls="collase0ne">Come accedere
+                                                        all'anagrafica utennti</button>
                                                 </div>
                                                 <div class="accordion-item">
-                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="collapse"
-                                                        aria-expanded="true" aria-controls="collase0ne">Come usare quest'interfaccia da mobile</button>
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="collapse"
+                                                        aria-expanded="true" aria-controls="collase0ne">Come usare
+                                                        quest'interfaccia da mobile</button>
                                                 </div>
                                             </div>
                                         </li>
@@ -98,9 +128,9 @@
                                 </div>
                             </div>
                         </div>
-                
+
                     </div>
-                    
+
                 </div>
             </div>
         </div>
