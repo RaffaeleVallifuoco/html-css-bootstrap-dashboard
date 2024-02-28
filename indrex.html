@@ -11,25 +11,33 @@
 
 <body>
     <header class="page_header">
-        <nav class="navbar navbar-expand-lg bg-primary text-white ">
+        <nav class="navbar bg-dark navbar-expand-lg " data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand text-white" href="#">
-                    <img src="./img/duck.png" alt="duck_logo" width="40" height="32" class="d-flex align-text-top">
+                <!-- nav logo -->
+                <a class="navbar-brand" href="#"><img src="./img/duck.png" alt="duck logo" width="30" height="28"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Catalogo Libri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Anagrafica Utenti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storico Prestiti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
 
-                </a>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav px-2">
-                        <li class="nav-item px-2 active"> Catalogo Libri</li>
-                        <li class="nav-item px-2">
-                            Anagrafica Utenti
-                        </li>
-                        <li class="nav-item px-2">Storico Prestiti
-                        </li>
-                        <li class="nav-item px-2">Help</li>
                     </ul>
-                    <form action="search" class="d-flex justify-content-end ">
-                        <input class="form-control" type="search" placeholder="Cerca" aria-label="search">
-                        <button class="btn text-white" type="submit">vai</button>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+                        <button class="btn btn-outline-tertiary" type="submit">Vai</button>
                     </form>
                 </div>
             </div>
@@ -40,7 +48,7 @@
         <div class="container container-fluid">
             <div class="row">
                 <!-- booklist -->
-                <div class="col-9 ">
+                <div class="col-lg-9 ">
                     <!-- list header -->
                     <div class="row py-5">
                         <div class="col-10 ">
@@ -87,7 +95,7 @@
                             </ul>
 
                         </div>
-                        <div class="col-1">
+                        <div class="col-2">
                             <h4 class="book-action">Azioni</h4>
                                 <ul class="list-group book_action">
                                     <li class="list-group-item">
@@ -103,7 +111,7 @@
 
                 </div>
                 <!-- scrollable -->
-                <div class="col-3">
+                <div class="col-lg-3">
                     <div class="todo py-5 ">
                         <div class="col">
                             <div class="card rounded-3">
@@ -111,7 +119,7 @@
                                     <!-- list sub title -->
                                     <p class="mb-2">
                                     <h2 class="me-2">
-                                        TOdo
+                                        To-do
                                     </h2>
                                     </p>
                                     <!-- list sub -->
@@ -132,8 +140,8 @@
                                     <p class="mb-2">
                                     <h2 class="me-2">F.A.Q.</h2>
                                     </p>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">
+                                    <ul class="list-group ">
+                                        <li class="list-group-item px-0">
                                             <div class="accordion">
                                                 <div class="accordion-item">
                                                     <button class="accordion-button" type="button"
